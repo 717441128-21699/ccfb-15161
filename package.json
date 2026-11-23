@@ -1,0 +1,19 @@
+{
+  "name": "tape-restoration-studio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "八十年代采访磁带数字修复工具：抖晃校正、方位角估计与高频补偿",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.3",
+    "vite": "^6.0.7",
+    "vitest": "^2.1.8"
+  }
+}
