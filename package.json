@@ -1,0 +1,17 @@
+{
+  "name": "tape-rescue",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "磁带录音数字修复工具:抖晃跟踪校正、方位角估计与高频补偿",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "verify": "npm run build && node dist/tools/verify.js",
+    "bench": "npm run build && node dist/tools/bench.js",
+    "serve": "npm run build && node tools/serve.mjs"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "typescript": "^5.6.3"
+  }
+}
